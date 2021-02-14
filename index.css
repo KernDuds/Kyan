@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: tahoma, Arial, Helvetica, sans-serif;
+    background: linear-gradient(#ccc, #232d72);
+}
+#principal{
+    width: 1024px;
+    margin: auto;
+}
+.header-top{
+    height: 50px;
+    background-color: #232d72;
+    border: 2px solid black;
+    margin-top: 50px;
+    position: relative;
+}
+.logo{
+    margin: -5px 10px 0px 0;
+}
+.menu-header{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.menu-header ul{
+    margin: 0;
+}
+.menu{
+    display: inline-block;
+    padding: 15px;
+    margin-right: 25px;
+}
+.menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 3px;
+    font-size: 14px;
+    font-family: "acme", cursive, Arial, Helvetica, sans-serif;
+    transition: all .3s linear;
+}
+.menu a:hover{
+    color: cadetblue;
+}
+.historia{
+    text-align-last: center;
+    margin: 80px 0;
+}
+.h1-historia{
+    color: rgba(0, 0, 0, .8);
+    font-size: 46px;
+}
+.p-historia{
+    color: rgb(216, 208, 203);
+    line-height: 2;
+    margin: 0 50px;
+    font-size: 18px;
+}
+.gallery h2{
+    font-size: 44px;
+    color: rgba(0, 0, 0, .8);
+    text-align: center;
+    margin-bottom: 80px;
+}
+.gallery{
+    margin: 50px 70px;
+    overflow: auto;
+    text-align: center;
+}   
+.gallery-card{
+    float: left;
+    width: 33.33%;
+}
+.gallery-img{
+    border-radius: 20px;
+    transition: .5s;
+}
+.gallery-img:hover{
+    transform: scale(1.1);
+}
+
+.gallery-title{
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, .7);
+    margin-bottom: -10px;
+}
+.gallery-description{
+    color: rgb(168, 165, 163);
+    letter-spacing: 1.2px;
+    font-size: 20px;
+    font-family: cursive, Arial, Helvetica, sans-serif;
+}
+.about{
+    padding: 100px;
+    background: rgba(0, 0, 0, .75);
+    color: white;
+    margin-top: 100px;
+}
+.about h2{
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    font-weight: 300;
+    font-size: 42px;
+    margin-top: 5px;
+}
+.about p{
+    color: rgb(168, 165, 163);
+    width: 60%;
+    line-height: 2;
+}
+#contact address{
+    text-align: center;
+    margin: 80px 0;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    line-height: 1.5;
+    font-style: none;
+    font-size: 26px;
+    font-weight: bold;
+}
+footer{
+    margin: 50px 0;
+    padding: 25px;
+    background-color: #232d72;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    border: 1px solid white;
+}
+footer a{
+    color: #fff;
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+}
